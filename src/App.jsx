@@ -28,7 +28,7 @@ function CartPage({ cartItems, clearCart }) {
       {cartItems.length === 0 ? (
         <p>Seu carrinho está vazio</p>
       ) : (
-        <ul>
+        <ul>npm 
           {cartItems.map((item, index) => (
             <li key={index}>
               {item.name} - R$ {item.price.toFixed(2)}
